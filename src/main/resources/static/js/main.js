@@ -7,9 +7,6 @@ var messageForm = document.querySelector('#messageForm');
 var messageInput = document.querySelector('#message');
 var messageArea = document.querySelector('#messageArea');
 var connectingElement = document.querySelector('.connecting');
-git remote add origin https://github.com/depak7/Chat-Application-using-Spring-boot.git
-git branch -M main
-git push -u origin main
 var stompClient = null;
 var username = null;
 
